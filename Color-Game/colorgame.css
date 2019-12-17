@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	background-color: #232323;
+	font-family: verdana;
+	font-size: 16px;
+}
+h1{
+	background-color: steelblue ;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#guesscolor {
+	font-size: 200%;
+	text-transform: uppercase ;
+}
+#ctrlbar {
+	background-color: white;
+	text-align: center;
+	height: 28px;
+	margin-bottom: 15px;
+}
+.active {
+	background-color: steelblue;
+	color: white;
+}
+#msg {
+	display: inline-block;
+	width: 20%;
+}
+button{
+	background: none;
+	border: 0;
+	color: steelblue;
+	height: 100%;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	outline: none;
+}
+button:hover {
+	background-color: steelblue;
+	color: white;
+}
+#container {
+	margin: 0 auto;
+	max-width: 40%
+}
+.square {
+	background-color: orange;
+	padding-top: 28%;
+	margin: 1%;
+	width: 30%;
+	float: left;
+	border-radius: 15px;
+	transition: ease-in-out ,0.3s;
+}
